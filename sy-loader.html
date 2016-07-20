@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://raw.githubusercontent.com/Eyad-Syrialover/sy-loader/master/sy-loader.min.js"></script>
+<title>sy-loader demo</title>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1 style="text-align:center;">sy-loader</h1>
+<h2>This Library Uses A Set Of HTML5 data-* Attributes,And CSS3 Animation Properties To Control The Loader.</h2>
+<ul>
+<li><h2>The data-sy-loader Attribute</h2>
+</li>
+<p>This Attribute Is <span style="color:red;"> Required</span>,And Should Contain The Value "true",Otherwise The Loader May Not Appear.
+<br>
+In Next Versions,I Will Try To Remove This Property And Use A Custom Tag Instead.</p>
+<li><h2>The data-sy-loader-border-type Attribute</h2></li>
+<p>This Attribute Is <span style="color:red;"> Required</span>,And Should Contain One Of CSS Border Style Names:
+<mark>Solid,Dotted,Dashed,Inset,Outset,Ridge,Hidden,None,Double,Groove.</mark>
+<br>
+<strong>Note:</strong>
+<div style="background-color:cyan;">
+This Attribute Doesn't Have A Default Value.<br>
+Omitting,Or Setting A Wrong Value To This Attribute May Lead To An Alarm On Your Page Each Time You Load It.
+</div>
+</p>
+<li><h2>The data-sy-loader-border-width Attribute</h2></li>
+<p>
+This Attribute Is <span style="color:lime;"> Optional</span> ,And If You Omitted It,The Loader's Border Will Have A Default Width Of 10px.
+<br>
+You May Specify Any Width You Like,And All CSS Units Are Supported.
+</p>
+<li><h2>The data-sy-loader-border-color Attribute</h2></li>
+<p>
+This Is A <span style="color:red;"> Required</span> Attribute.<br>
+Defines The Border Color For The Loader.
+<br>
+You May Use The Hexadecimal Colors,Or The RGB() Colors,Or Specify Colors By Their Names.
+</p>
+<li><h2>The data-sy-loader-spinner-color Attribute</h2></li>
+<p>
+This Attribute Is <span style="color:red;"> Required.</span><br>
+Defines Color For That Spinning Thing Inside The Loader.<br>
+You May Use The Hexadecimal Colors,Or The RGB() Colors,Or Specify Colors By Their Names.
+</p>
+<li><h2>The data-sy-loader-radius Attribute</h2></li>
+<p>
+This Attribute Is <span style="color:lime;">Optional.</span><br>
+Specify The Radius For Loader (Border Width Isn't Included),Since The Loader Is A Circle.
+</p>
+<li><h2>The data-sy-loader-duration Attribute</h2></li>
+<p>
+This Attribute Is <span style="color:lime;">Optional.</span> <br>
+Specifies The Required Time For The Loader To Complete A 360° Degree Turn.<br>
+If You Omitted This Attribute,The Default Required Time Is Two Seconds.
+</p>
+</ul>
+<h2 style="text-align:center;">Preview</h2>
+<div style="margin:auto;" id="spinnerTest" data-sy-loader="true" data-sy-loader-border-type="solid" data-sy-loader-border-width="20px" data-sy-loader-border-color="deeppink" data-sy-loader-spinner-color="cyan" data-sy-loader-radius="200px" data-sy-loader-duration="2s">
+
+</body>
+</html>
