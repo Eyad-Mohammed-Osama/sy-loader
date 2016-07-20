@@ -10,3 +10,10 @@ There Are Two Versions Of The Library:
 <li><strong>The Development Version:</strong>Contains A Readable Code,Lots Of Spaces Between Code Lines,No Comments Is Included.</li>
 </ul>
 </h2>
+<h1 style="color:red;">Steps To Use sy-loader.js</h1>
+<h2>
+<ol>
+<li>Include The Following Line In &#60;head></li>
+<textarea><script src=""></script></textarea>
+</ol>
+</h2>
