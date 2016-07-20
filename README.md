@@ -14,7 +14,7 @@ There Are Two Versions Of The Library:
 <h2>
 <ol>
 <li>Include The Following Line In &#60;head></li>
-<script src="https://raw.githubusercontent.com/Eyad-Syrialover/sy-loader/master/sy-loader.min.js"></script>
+&#60;script src="https://raw.githubusercontent.com/Eyad-Syrialover/sy-loader/master/sy-loader.min.js">&#60;/script>
 <li>See The <a href="https://raw.githubusercontent.com/Eyad-Syrialover/sy-loader/master/sy-loader.html" target="_blank">Demonstration Page.</a></li>
 </ol>
 </h2>
