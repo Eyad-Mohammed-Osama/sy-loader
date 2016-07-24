@@ -7,3 +7,7 @@
 <li>Developer Can Control The Duration,Colors,Delay,Radius,Border.</li>
 </ul>
 </h3>
+<hr>
+<div dir="rtl">
+
+</div>
