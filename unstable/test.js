@@ -45,5 +45,5 @@ loader[i].style["border-width"]=loader[i].getAttribute("data-sy-loader-border-wi
 
 
 
-}
-}
+};
+};
