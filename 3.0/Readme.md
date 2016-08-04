@@ -5,6 +5,6 @@
 <li>Added More Support For Opera Browser.</li>
 <li>Fixed Some Issues And Errors.</li>
 <li>The Quality Of The Code Is Now Improved.</li>
-<li></li>
+<li>Added More Dependence On CSS3 Rather Than JavaScript.</li>
 </ul>
 </h3>
