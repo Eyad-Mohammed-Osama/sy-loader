@@ -2,7 +2,22 @@
 /*
 sy-loader.js Designed By Eyad Syria-lover And Moved To The Folder 1.0 On 30/7/2016
 */
+/*
+DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                    Version 2, December 2004
 
+ Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+
+ Everyone is permitted to copy and distribute verbatim or modified
+ copies of this license document, and changing it is allowed as long
+ as the name is changed.
+
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+  0. You just DO WHAT THE FUCK YOU WANT TO.
+
+*/
 
 window.onload=function() {
 var loader=document.querySelectorAll("[data-sy-loader=true]");
